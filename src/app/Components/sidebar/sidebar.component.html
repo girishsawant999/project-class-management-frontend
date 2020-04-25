@@ -1,0 +1,162 @@
+<div class="content-wrapper">            
+    <title>Customer Profile</title>
+    <div class="page-header">
+        <h3 class="page-title">
+                    <span class="page-title-icon bg-gradient-primary text-white mr-2">
+                      <i class="mdi mdi-account-outline"></i>
+                    </span> Profile</h3>
+        <nav aria-label="breadcrumb">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">
+                    <span></span>Overview <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="card">
+        <div class="card-body">
+            <!--        <h4 class="card-title">Striped Table</h4>-->
+            <!--        <p class="card-description"> Add class <code>.table-striped</code>-->
+            <!--        </p>-->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-3 padding-bottom10">
+                    
+                    <label class="badge badge-success">&nbsp;Active&nbsp;</label>
+                    
+                </div>
+                <div class="col-lg-6 col-md-6 col-9 font-size13 text-right padding-bottom10">
+                    <i class="mdi mdi-clock-alert  icon-sm text-primary"></i>
+                    Updated 1&nbsp;week, 6&nbsp;days ago
+                </div>
+    
+                <div class="col-lg-12 col-md-12 col-12 text-center padding-bottom15">
+                    
+                    <img src="assets/images/faces-clipart/pic-1-m.png" alt="image">
+                    
+                    
+                </div>
+                <div class="col-lg-12 col-md-12 col-12 text-center font-size18 font-weight900 padding-bottom15">
+                    Girish Sawant
+                </div>
+                <div class="col-lg-12 col-md-12 col-12 text-center font-size18 font-weight900 padding-bottom15">
+                    <button type="button" class="btn btn-sm btn-outline-danger btn-icon-text" data-toggle="modal" data-target="#myModal">
+                        <i class="mdi mdi-delete btn-icon-prepend"></i> Delete Customer
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12 disable-select padding-bottom5">
+                    <ul class="tab">
+                        <li>
+                            <a class="tablinks active" id="default-tab" onclick="openCity($event, 'tab-1')">
+                                Basic Details
+                            </a>
+                        </li>
+                        <li>
+                            <a class="tablinks" onclick="openCity($event, 'tab-2')">
+                                Status Details
+                            </a>
+                        </li>
+    
+                    </ul>
+                </div>
+    
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div id="tab-1" class="tabcontent" style="display: block;">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-clock icon-list text-primary"></i>&nbsp;
+                                Created On - April 12, 2020
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-cellphone  icon-list text-primary"></i>&nbsp;
+                                Contact No - 8796456149
+                            </div>
+                            
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-gmail icon-list text-primary"></i>&nbsp;
+                                Email - girishsawant99.gs@gmail.com
+                            </div>
+                            
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-account-card-details icon-list text-primary"></i>&nbsp;
+                                Adhar No - 2134566777887777
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-cake-variant icon-list text-primary"></i>&nbsp;
+                                Date of Birth - Nov. 16, 1997
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-home-map-marker icon-list text-primary"></i>&nbsp;
+                                Address - Shiroli, Rajgurunagar, Pune 410505
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15 padding-top15 text-center">
+                                <button type="button" onclick="window.location='/customer/9/edit/basic'" class="btn btn-sm btn-outline-primary btn-fw">
+                                    <i class="mdi mdi-pen btn-icon-append"></i>
+                                    Edit Basic Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tabcontent" style="display: none;">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-clock-alert  icon-list text-primary"></i>&nbsp;
+                                Updated 1&nbsp;week, 6&nbsp;days ago
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-information icon-list text-primary"></i>&nbsp;
+                                Status - Active
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-calendar-plus icon-list text-primary"></i>&nbsp;
+                                Started Date - April 12, 2020
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-calendar-remove icon-list text-primary"></i>&nbsp;
+                                Closing Date - June 12, 2020
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-cash-multiple icon-list text-primary"></i>&nbsp;
+                                Total Fees - ₹ 1,800
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-cash icon-list text-primary"></i>&nbsp;
+                                Fees paid - ₹ 1,000
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                                <i class="mdi mdi-cash icon-list text-primary"></i>&nbsp;
+                                Fees Remaining - ₹ 800
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 padding-bottom15 padding-top15 text-center">
+                                <button type="button" onclick="window.location='/customer/9/edit/status'" class="btn btn-sm btn-outline-primary btn-fw">
+                                    <i class="mdi mdi-pen btn-icon-append"></i>
+                                    Edit Status Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<script>
+    document.getElementById('default-tab').click();
+    function openCity(evt, tabName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+</script>
