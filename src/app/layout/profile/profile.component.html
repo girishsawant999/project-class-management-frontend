@@ -1,0 +1,140 @@
+<title>User Profile</title>
+<div class="page-header">
+    <h3 class="page-title">
+                <span class="page-title-icon bg-gradient-primary text-white mr-2">
+                  <i class="mdi mdi-account-outline"></i>
+                </span> Profile</h3>
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">
+                <span></span>Overview <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <!--        <h4 class="card-title">Striped Table</h4>-->
+        <!--        <p class="card-description"> Add class <code>.table-striped</code>-->
+        <!--        </p>-->
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-3 padding-bottom10">
+                
+                <label class="badge badge-danger">Inactive</label>
+                
+            </div>
+            <div class="col-lg-6 col-md-6 col-9 font-size13 text-right padding-bottom10">
+                <i class="mdi mdi-clock-alert  icon-sm text-primary"></i>
+                Updated 2&nbsp;weeks, 5&nbsp;days ago
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-12 text-center padding-bottom15">
+                
+                <img src="/assets/images/faces-clipart/pic-1-m.png" alt="image">
+                
+                
+            </div>
+            <div class="col-lg-12 col-md-12 col-12 text-center font-size18 font-weight900 padding-bottom10">
+                User 1
+            </div>
+            <div class="col-lg-12 col-md-12 col-12 text-center text-muted font-size18 font-weight900 padding-bottom15">
+                Gold Gym
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12 disable-select padding-bottom5">
+                <ul class="tab">
+                    <li>
+                        <a class="tablinks" id="default-tab" onclick="openCity(event, 'tab-1')">
+                            Basic Details
+                        </a>
+                    </li>
+                    <li>
+                        <a class="tablinks active" onclick="openCity(event, 'tab-2')">
+                            Status Details
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-12">
+                <div id="tab-1" class="tabcontent" style="display: none;">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-clock icon-list text-primary"></i>&nbsp;
+                            Created On - April 11, 2020
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-cellphone  icon-list text-primary"></i>&nbsp;
+                            Contact No - 1234567890
+                        </div>
+                        
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-gmail icon-list text-primary"></i>&nbsp;
+                            Email - user1@gmail.com
+                        </div>
+                        
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-home-map-marker icon-list text-primary"></i>&nbsp;
+                            Address - Pune
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-cellphone icon-list text-primary"></i>&nbsp;
+                            Gym Contact No - 1234567890
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-home-map-marker icon-list text-primary"></i>&nbsp;
+                           Gym Address - Pune
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15 padding-top15 text-center">
+                            <button type="button" onclick="window.location='#'" class="btn btn-sm btn-outline-primary btn-fw">
+                                <i class="mdi mdi-pen btn-icon-append"></i>
+                                Edit Basic Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-2" class="tabcontent" style="display: block;">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-clock-alert  icon-list text-primary"></i>&nbsp;
+                            Updated 2&nbsp;weeks, 5&nbsp;days ago
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-information icon-list text-primary"></i>&nbsp;
+                            Status - Inactive
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-calendar-plus icon-list text-primary"></i>&nbsp;
+                            Started Date - 
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-calendar-remove icon-list text-primary"></i>&nbsp;
+                            Closing Date - 
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-cash-multiple icon-list text-primary"></i>&nbsp;
+                            Total Fees - ₹ 
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-cash icon-list text-primary"></i>&nbsp;
+                            Fees paid - ₹ 
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15">
+                            <i class="mdi mdi-cash icon-list text-primary"></i>&nbsp;
+                            Fees Remaining - ₹ 
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 padding-bottom15 padding-top15 text-center">
+                            <button type="button" onclick="window.location='#'" class="btn btn-sm btn-outline-primary btn-fw">
+                                <i class="mdi mdi-pen btn-icon-append"></i>
+                                Edit Status Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
